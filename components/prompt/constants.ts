@@ -1,0 +1,138 @@
+export const ETHNICITIES = [
+    // Indonesia
+    { value: 'Javanese', label: 'Javanese (Jawa)' },
+    { value: 'Sundanese', label: 'Sundanese (Sunda)' },
+    { value: 'Batak', label: 'Batak' },
+    { value: 'Minangkabau', label: 'Minangkabau' },
+    { value: 'Balinese', label: 'Balinese (Bali)' },
+    { value: 'Dayak', label: 'Dayak' },
+    { value: 'Papuan', label: 'Papuan (Papua)' },
+    { value: 'Madurese', label: 'Madurese (Madura)' },
+    { value: 'Buginese', label: 'Buginese (Bugis)' },
+    { value: 'Malay', label: 'Malay (Melayu)' },
+    // Asia
+    { value: 'Han Chinese', label: 'Han Chinese (Tionghoa Han)' },
+    { value: 'Japanese', label: 'Japanese (Jepang)' },
+    { value: 'Korean', label: 'Korean (Korea)' },
+    { value: 'Vietnamese', label: 'Vietnamese (Vietnam)' },
+    { value: 'Thai', label: 'Thai (Thailand)' },
+    { value: 'Filipino', label: 'Filipino (Filipina)' },
+    { value: 'South Asian', label: 'South Asian (India/Pakistan/Bangladesh)' },
+    // Middle East / North Africa
+    { value: 'Arab', label: 'Arab' },
+    { value: 'Persian', label: 'Persian (Persia)' },
+    { value: 'Turkish', label: 'Turkish (Turki)' },
+    { value: 'Kurdish', label: 'Kurdish (Kurdi)' },
+    { value: 'Berber', label: 'Berber' },
+    { value: 'Egyptian', label: 'Egyptian (Mesir)' },
+    // Europe
+    { value: 'English', label: 'English (Inggris)' },
+    { value: 'Irish', label: 'Irish (Irlandia)' },
+    { value: 'Scottish', label: 'Scottish (Skotlandia)' },
+    { value: 'German', label: 'German (Jerman)' },
+    { value: 'French', label: 'French (Prancis)' },
+    { value: 'Italian', label: 'Italian (Italia)' },
+    { value: 'Spanish', label: 'Spanish (Spanyol)' },
+    { value: 'Portuguese', label: 'Portuguese (Portugis)' },
+    { value: 'Russian', label: 'Russian (Rusia)' },
+    { value: 'Ukrainian', label: 'Ukrainian (Ukraina)' },
+    { value: 'Polish', label: 'Polish (Polandia)' },
+    { value: 'Nordic', label: 'Nordic (Skandinavia)' },
+    { value: 'Greek', label: 'Greek (Yunani)' },
+    // Africa
+    { value: 'Yoruba', label: 'Yoruba (Nigeria)' },
+    { value: 'Igbo', label: 'Igbo (Nigeria)' },
+    { value: 'Hausa', label: 'Hausa (Nigeria)' },
+    { value: 'Zulu', label: 'Zulu (Afrika Selatan)' },
+    { value: 'Xhosa', label: 'Xhosa (Afrika Selatan)' },
+    { value: 'Kikuyu', label: 'Kikuyu (Kenya)' },
+    { value: 'Ethiopian', label: 'Ethiopian (Ethiopia)' },
+    { value: 'Somali', label: 'Somali (Somalia)' },
+    // Americas
+    { value: 'African-American', label: 'African-American (Afrika-Amerika)' },
+    { value: 'White American', label: 'White American (Amerika Kaukasia)' },
+    { value: 'Hispanic/Latino', label: 'Hispanic/Latino' },
+    { value: 'Native American', label: 'Native American (Pribumi Amerika)' },
+    // Other
+    { value: 'Aboriginal Australian', label: 'Aboriginal Australian (Aborigin Australia)' },
+    { value: 'Maori', label: 'Maori (Selandia Baru)' },
+    { value: 'Other', label: 'Other (Lainnya)' }
+];
+
+export const GENDERS = [
+    { value: 'Female', label: 'Female (Perempuan)' },
+    { value: 'Male', label: 'Male (Laki-laki)' },
+    { value: 'Non-binary', label: 'Non-binary (Non-biner)' },
+    { value: 'Unspecified', label: 'Unspecified (Tidak ditentukan)' }
+];
+
+export const LIGHTING = [
+    { value: 'Natural Light', label: 'Natural Light (Cahaya Alami)' },
+    { value: 'Golden Hour', label: 'Golden Hour (Jam Emas)' },
+    { value: 'Blue Hour', label: 'Blue Hour (Jam Biru)' },
+    { value: 'Overcast', label: 'Overcast (Cahaya Mendung)' },
+    { value: 'Studio Lighting', label: 'Studio Lighting (Pencahayaan Studio)' },
+    { value: 'High-Key', label: 'High-Key (Terang)' },
+    { value: 'Low-Key', label: 'Low-Key (Gelap)' },
+    { value: 'Chiaroscuro', label: 'Chiaroscuro (Kontras Tinggi)' },
+    { value: 'Backlight', label: 'Backlight (Cahaya Belakang)' },
+    { value: 'Rim Light', label: 'Rim Light (Cahaya Tepi)' },
+    { value: 'Hard Light', label: 'Hard Light (Cahaya Keras)' },
+    { value: 'Soft Light', label: 'Soft Light (Cahaya Lembut)' },
+    { value: 'Dappled Light', label: 'Dappled Light (Cahaya Rindang)' },
+    { value: 'Moonlight', label: 'Moonlight (Cahaya Bulan)' },
+    { value: 'Candlelight', label: 'Candlelight (Cahaya Lilin)' },
+    { value: 'Neon', label: 'Neon' },
+    { value: 'Cyberpunk Neon', label: 'Cyberpunk Neon' },
+    { value: 'Bioluminescent', label: 'Bioluminescent (Cahaya Makhluk Hidup)' },
+    { value: 'Volumetric', label: 'Volumetric (Berdimensi)' },
+    { value: 'God Rays', label: 'God Rays (Sinar Dewa)' },
+];
+
+export const CAMERA_ANGLES = [
+    { value: 'Eye Level', label: 'Eye Level (Sejajar Mata)' },
+    { value: 'High Angle', label: 'High Angle (Sudut Tinggi)' },
+    { value: 'Low Angle', label: 'Low Angle (Sudut Rendah)' },
+    { value: 'Dutch Angle', label: 'Dutch Angle (Sudut Miring)' },
+    { value: 'Worm\'s Eye View', label: 'Worm\'s Eye View (Perspektif Cacing)' },
+    { value: 'Bird\'s Eye View', label: 'Bird\'s Eye View (Perspektif Burung)' },
+    { value: 'Over the Shoulder', label: 'Over the Shoulder (Lewat Bahu)' },
+    { value: 'Point of View (POV)', label: 'Point of View (POV) (Sudut Pandang)' },
+    { value: 'Shoulder Level', label: 'Shoulder Level (Sejajar Bahu)' },
+];
+
+export const CAMERA_SHOTS = [
+    { value: 'Extreme Wide Shot (EWS)', label: 'Extreme Wide Shot (EWS) (Shot Sangat Lebar)' },
+    { value: 'Wide Shot (WS)', label: 'Wide Shot (WS) (Shot Lebar)' },
+    { value: 'Full Shot (FS)', label: 'Full Shot (FS) (Shot Penuh)' },
+    { value: 'Medium Wide Shot (MWS)', label: 'Medium Wide Shot (MWS) (Shot Setengah Lebar)' },
+    { value: 'Medium Shot (MS)', label: 'Medium Shot (MS) (Shot Setengah Badan)' },
+    { value: 'Medium Close-up (MCU)', label: 'Medium Close-up (MCU) (Shot Setengah Dekat)' },
+    { value: 'Close-up (CU)', label: 'Close-up (CU) (Shot Dekat)' },
+    { value: 'Extreme Close-up (ECU)', label: 'Extreme Close-up (ECU) (Shot Sangat Dekat)' },
+    { value: 'Establishing Shot', label: 'Establishing Shot (Shot Pembuka)' },
+    { value: 'Two Shot', label: 'Two Shot (Shot Dua Orang)' },
+    { value: 'Group Shot', label: 'Group Shot (Shot Kelompok)' },
+    { value: 'Master Shot', label: 'Master Shot (Shot Master)' },
+];
+
+export const STYLES = [
+    { value: 'Cinematic', label: 'Cinematic (Sinematik)' },
+    { value: 'Documentary', label: 'Documentary (Dokumenter)' },
+    { value: 'Vlog Style', label: 'Vlog Style (Gaya Vlog)' },
+    { value: 'Found Footage', label: 'Found Footage (Rekaman Ditemukan)' },
+    { value: 'Surreal', label: 'Surreal (Surealis)' },
+    { value: 'Dreamlike', label: 'Dreamlike (Seperti Mimpi)' },
+    { value: 'Film Noir', label: 'Film Noir (Gelap)' },
+    { value: 'Neo-Noir', label: 'Neo-Noir (Modern Gelap)' },
+    { value: 'Technicolor', label: 'Technicolor (Warna Jenuh)' },
+    { value: 'Vintage Film', label: 'Vintage Film (Film Jadul)' },
+    { value: '8-bit Pixel Art', label: '8-bit Pixel Art (Seni Piksel 8-bit)' },
+    { value: 'Anime', label: 'Anime' },
+    { value: 'Hyperrealistic', label: 'Hyperrealistic (Sangat Realistis)' },
+    { value: 'Photorealistic', label: 'Photorealistic (Sangat Detail)' },
+    { value: 'Impressionistic', label: 'Impressionistic (Seperti Lukisan)' },
+    { value: 'Gothic', label: 'Gothic (Gotik)' },
+    { value: 'Steampunk', label: 'Steampunk (Mesin Uap)' },
+    { value: 'Solarpunk', label: 'Solarpunk (Alam & Teknologi)' },
+];
